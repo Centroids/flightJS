@@ -1,0 +1,46 @@
+body{
+   margin: 0;
+   background: #0bafdb;
+}
+
+.title{
+   position: relative;
+   width: 100%;
+}
+
+.splashScreen{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+
+.startGame{
+   margin-left: auto;
+   margin-right: auto;
+   position: absolute;
+   bottom: 100px;
+   left: 100px;
+   right: 100px;
+   font-size: 20px;
+}
+
+.startGame li{
+   display: inline;
+}
+
+#canvas-container{
+   position: relative;
+   overflow: auto;
+}
+canvas{
+   display: none;
+   border-color: solid 1px black;
+   background-image: url("assets/gameGrid.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 50%;
+   padding: 0px;
+   margin: 0px;
+}
+
